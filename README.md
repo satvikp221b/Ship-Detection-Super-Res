@@ -13,7 +13,7 @@ This project focuses on enhancing the detection of small objects, specifically s
 We employ ESRGAN for image super-resolution, which significantly improves the clarity of low-resolution maritime images. After super-resolution, YOLOv5 is used for accurate and real-time detection of ships. The key innovation in this project is the use of attention mechanisms in the super-resolution process, which ensures that small ships are better preserved during image upscaling.
 
 ## Project Structure
-- `Ship Detection Super Resolution Report.pdf`: The project report detailing methodology and results.
+- `Ship Detection Super Resolution Project Report.pdf`: The project report detailing methodology and results.
 - `Ship Detection SuperRes.ipynb`: Jupyter notebook containing the code for preprocessing, model training, and ship detection.
 - `data/`: Contains sample data for testing, if any.
 - 'images/': Contains sample input,output and final bounding boxes sample image.
@@ -24,4 +24,9 @@ We employ ESRGAN for image super-resolution, which significantly improves the cl
 - TensorFlow 
 - YOLOv5
 - ESRGAN
+
+## Results
+![Original vs Super-Resolution](images/output/side_by_side.jpg)
+![YOLO Bounding Boxes](images/output/final_bb.jpg)
+
 
